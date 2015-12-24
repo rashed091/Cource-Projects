@@ -1,0 +1,15 @@
+int count, total;
+float average,value;
+int number;
+
+
+int main (int x,int y)
+{
+	int i;
+	for (i=0; i<10; i = i + 1) {
+		total = total + i;
+	}
+	count = 5;
+	average = total / count;
+	return average;
+}
